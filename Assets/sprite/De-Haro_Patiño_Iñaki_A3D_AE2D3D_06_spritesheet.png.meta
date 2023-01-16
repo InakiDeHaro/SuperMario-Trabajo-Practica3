@@ -1,0 +1,976 @@
+fileFormatVersion: 2
+guid: aa00b737abfbee646b32eabea605dc62
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_0"
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 957
+        width: 73
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fc356ac463eaf44b0953ae46c5086e
+      internalID: 142308002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_1"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 955
+        width: 73
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b74f23ac3fba34e8715a481839fbf5
+      internalID: 1438907619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_2"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 955
+        width: 73
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b0a8e1b74696c44a3fe20c6fa88a5d
+      internalID: 246713163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_3"
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 953
+        width: 73
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581d9837e795f5049916a931fbc30566
+      internalID: -1260912739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_4"
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 949
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa9538ca85eee543bc2ff051492a832
+      internalID: -1409349907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_5"
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 947
+        width: 73
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c7557425b128d4c91d3495b03a5bef
+      internalID: 1699096024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_6"
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 944
+        width: 73
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ff687d2d15c9445b015cc029b36461
+      internalID: 399266770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_7"
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 949
+        width: 73
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16c5095767c7084e8be025da018795c
+      internalID: 1561381005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_8"
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 945
+        width: 73
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bef1c0ff1102e4a9540a99d9b46b7f
+      internalID: 1084242354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_9"
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 945
+        width: 73
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbfc33489c01fb4e9524b1cb6da3a01
+      internalID: 1499826401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_15"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 759
+        width: 73
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38f4aee5ac559f40ac3b332b4e9eb53
+      internalID: 374199556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_16"
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 760
+        width: 73
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95088d1c69dfcb040acc83b730f11897
+      internalID: 440033256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_17"
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 760
+        width: 73
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1309400bb35ad54469a7cbb723a537e3
+      internalID: 1708484746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_18"
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 762
+        width: 73
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786c9d3f72fffe34ea2b028467756d05
+      internalID: -717857012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_19"
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 759
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f52e24b5d9b90548989e6e844344470
+      internalID: -104131765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_20"
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 763
+        width: 73
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806b476ba338f4847bccf51330262657
+      internalID: -452859526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_21"
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 761
+        width: 73
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e48a4e207ff23d43869d2e71a64ee45
+      internalID: 1752155411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_22"
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 759
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1100127d2f9982744adad60843feb853
+      internalID: -1327858513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_23"
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 759
+        width: 73
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8531c7da759646c40b7bece45f41b1da
+      internalID: 2135558466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_24"
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 761
+        width: 73
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc70f5504847a7842986f8c41dbcc991
+      internalID: -1411738994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_25"
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 760
+        width: 73
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bceff4b67a55d4788893a9c09eb74e
+      internalID: 1651890626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_26"
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 760
+        width: 73
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5749a1e73fec3946b92df96db587217
+      internalID: 524461501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_27"
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 761
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3589d3c801a5014990a017f4a0b48d3
+      internalID: 2067425358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_33"
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 568
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133ad003181366d40a36be40f17bd7f6
+      internalID: -621463837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_34"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 568
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b0910ad51027940a51c11f92be61f6
+      internalID: 1028347039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_35"
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 568
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccbdf3e3f4e4b2449c027c1d03df21d
+      internalID: -2120763001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_36"
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 568
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1136f63f31ff1ab4baa6c3e3ec524dac
+      internalID: -1046875657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_37"
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 566
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889c3467ccd310443bfb0eca094147cf
+      internalID: -2101040853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_38"
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 566
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c8044b2f369344dab7a5c0a3e29985
+      internalID: 624501229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_39"
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 565
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319aa87f0b6fcfe4cba115c37e908694
+      internalID: 1982451612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_40"
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 565
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2bcd994266fa14090540f372531c5f
+      internalID: 907893550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_41"
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 566
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad82079cd394a442bd5ee66cdef56ef
+      internalID: -1054880488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_42"
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 565
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b06ea58354d67f40af5403c3baad349
+      internalID: -1045986313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_43"
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 565
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41366bae720e8243a11a4ac63fac1e4
+      internalID: -1352276860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_44"
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 566
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e665568ce3c605046a46c28cc182aa60
+      internalID: -1654277302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_45"
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 566
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd69c1e617e776c42a512092f062e5ce
+      internalID: 90049104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_46"
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 566
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2edc65eb5039c440bd57a385434d632
+      internalID: 1990346881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_0": 142308002
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_31": 2069659294
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_1": 1438907619
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_48": 1741174387
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_25": 1651890626
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_15": 374199556
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_27": 2067425358
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_4": -1409349907
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_51": -511691497
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_40": 907893550
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_13": -670291266
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_7": 1561381005
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_42": -1045986313
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_47": -789516848
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_24": -1411738994
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_8": 1084242354
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_21": 1752155411
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_11": 1445165841
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_36": -1046875657
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_39": 1982451612
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_34": 1028347039
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_50": -1189992480
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_14": -523791759
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_10": -1005347333
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_23": 2135558466
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_2": 246713163
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_9": 1499826401
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_46": 1990346881
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_28": -326328150
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_18": -717857012
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_45": 90049104
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_29": -1125317600
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_30": 17904859
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_3": -1260912739
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_38": 624501229
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_12": -147546946
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_41": -1054880488
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_43": -1352276860
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_22": -1327858513
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_33": -621463837
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_37": -2101040853
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_5": 1699096024
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_20": -452859526
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_35": -2120763001
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_6": 399266770
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_49": -200736936
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_16": 440033256
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_19": -104131765
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_44": -1654277302
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_17": 1708484746
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_52": 1030038702
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_32": 985555895
+      "De-Haro_Pati\xF1o_I\xF1aki_A3D_AE2D3D_06_spritesheet_26": 524461501
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
