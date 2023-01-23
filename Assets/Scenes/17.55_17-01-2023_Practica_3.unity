@@ -364,7 +364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1240982538}
   XMin: 0
-  XMax: 0
+  XMax: 110.03
   YMin: 0
   YMax: 0
 --- !u!1 &650252894

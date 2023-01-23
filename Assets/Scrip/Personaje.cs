@@ -56,8 +56,23 @@ public class Personaje : MonoBehaviour
         }
         //animation "run"
         anima.SetFloat("spd", Mathf.Abs(direction));
-        //animation "jump"
+        //animation "jump" & "fall"
+        if (isTouchground)
+            {
+                anima.SetInteger("Falling", 0);
+            }
+        else
+        {
+            if (rg.velocity.y > 0.1f)
+            {
+                anima.SetInteger("Falling", 1);
+            }
+            else if (rg.velocity.y < -0.1f)
+            {
+                anima.SetInteger("Falling", -1);
+            }
 
-        //animation "fall"
+
+        }
     }
 }
