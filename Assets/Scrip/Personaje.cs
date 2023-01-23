@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Personaje : MonoBehaviour
 {
+   
     public float jumpspeed = 8f;
     public float speed = 5f;
     private float direction = 0f;
@@ -11,6 +12,13 @@ public class Personaje : MonoBehaviour
     private BoxCollider2D hitbox;
     SpriteRenderer spriter;
     Animator anima;
+
+    //salto check
+    public Transform Groundcheck;
+    public float GroundcheckRadius;
+    public LayerMask groundLayer;
+    private bool isTouchground;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +30,7 @@ public class Personaje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isTouchground = Physics2D.OverlapCircle(Groundcheck.position,GroundcheckRadius,groundLayer);
         //movement
         direction = Input.GetAxis("Horizontal");
         if (direction > 0f)
@@ -41,7 +50,7 @@ public class Personaje : MonoBehaviour
         //direction
 
         //jump
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isTouchground)
         {
             rg.velocity = new Vector2(rg.velocity.x, jumpspeed);
         }
