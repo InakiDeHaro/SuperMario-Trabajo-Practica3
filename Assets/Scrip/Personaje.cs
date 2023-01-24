@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Personaje : MonoBehaviour
 {
-   
+
     public float jumpspeed = 8f;
     public float speed = 5f;
     private float direction = 0f;
@@ -22,7 +23,6 @@ public class Personaje : MonoBehaviour
 
     //respawn
     private Vector3 respawnPoint;
-    public GameObject fallDetector;
 
     // Start is called before the first frame update
     void Start()
@@ -31,13 +31,12 @@ public class Personaje : MonoBehaviour
         anima = GetComponent<Animator>();
         spriter = GetComponent<SpriteRenderer>();
 
-        respawnPoint = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        isTouchground = Physics2D.OverlapCircle(Groundcheck.position,GroundcheckRadius,groundLayer);
+        isTouchground = Physics2D.OverlapCircle(Groundcheck.position, GroundcheckRadius, groundLayer);
         //movement
         direction = Input.GetAxis("Horizontal");
         if (direction > 0f)
@@ -54,15 +53,8 @@ public class Personaje : MonoBehaviour
         {
             rg.velocity = new Vector2(0, rg.velocity.y);
         }
-        // repawn
-        fallDetector.transform.position = new Vector2(transform.position.x, transform.position.y);
-        void OnTriggerEnter2D(Collider2D collision)
-        {
-            if(collision.tag == "FallDetector")
-            {
-                transform.position = respawnPoint;
-            }
-        }
+
+ 
 
 
         //jump
@@ -74,9 +66,9 @@ public class Personaje : MonoBehaviour
         anima.SetFloat("spd", Mathf.Abs(direction));
         //animation "jump" & "fall"
         if (isTouchground)
-            {
-                anima.SetInteger("Falling", 0);
-            }
+        {
+            anima.SetInteger("Falling", 0);
+        }
         else
         {
             if (rg.velocity.y > 0.1f)
@@ -87,8 +79,24 @@ public class Personaje : MonoBehaviour
             {
                 anima.SetInteger("Falling", -1);
             }
-
-
+        }
+        if (transform.position.y < -6.54)
+        {
+            SceneManager.LoadScene("17.55_17-01-2023_Practica_3");
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+      if (collision.CompareTag("enemy kill"))
+        {
+            Destroy(collision.transform.parent.gameObject);
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            SceneManager.LoadScene("17.55_17-01-2023_Practica_3");
         }
     }
 }
