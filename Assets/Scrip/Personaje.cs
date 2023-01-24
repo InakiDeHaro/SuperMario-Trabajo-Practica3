@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Personaje : MonoBehaviour
@@ -19,12 +20,18 @@ public class Personaje : MonoBehaviour
     public LayerMask groundLayer;
     private bool isTouchground;
 
+    //respawn
+    private Vector3 respawnPoint;
+    public GameObject fallDetector;
+
     // Start is called before the first frame update
     void Start()
     {
         rg = GetComponent<Rigidbody2D>();
         anima = GetComponent<Animator>();
         spriter = GetComponent<SpriteRenderer>();
+
+        respawnPoint = transform.position;
     }
 
     // Update is called once per frame
@@ -47,7 +54,16 @@ public class Personaje : MonoBehaviour
         {
             rg.velocity = new Vector2(0, rg.velocity.y);
         }
-        //direction
+        // repawn
+        fallDetector.transform.position = new Vector2(transform.position.x, transform.position.y);
+        void OnTriggerEnter2D(Collider2D collision)
+        {
+            if(collision.tag == "FallDetector")
+            {
+                transform.position = respawnPoint;
+            }
+        }
+
 
         //jump
         if (Input.GetButtonDown("Jump") && isTouchground)
