@@ -96,7 +96,7 @@ public class Personaje : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene("17.55_17-01-2023_Practica_3");
+            SceneManager.LoadScene("Menu");
         }
     }
 }
