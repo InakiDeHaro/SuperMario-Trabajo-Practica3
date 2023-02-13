@@ -23,7 +23,7 @@ public class Personaje : MonoBehaviour
 
     //respawn
     private Vector3 respawnPoint;
-
+    public GameObject FallDetector;
     // Start is called before the first frame update
     void Start()
     {
@@ -82,7 +82,7 @@ public class Personaje : MonoBehaviour
         }
         if (transform.position.y < -6.54)
         {
-            SceneManager.LoadScene("17.55_17-01-2023_Practica_3");
+            SceneManager.LoadScene("Menu");
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
