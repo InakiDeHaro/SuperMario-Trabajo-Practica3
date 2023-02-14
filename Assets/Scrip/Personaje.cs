@@ -99,4 +99,12 @@ public class Personaje : MonoBehaviour
             SceneManager.LoadScene("Menu");
         }
     }
+
+
+    void ChangeScene(string name)
+    {
+        SceneManager.LoadScene
+    }
 }
+
+
