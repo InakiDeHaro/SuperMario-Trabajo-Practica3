@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
 
@@ -41,5 +41,12 @@ public class GameManager : MonoBehaviour
     public float GetTime()
     {
         return time;
+    }
+
+
+    public void changeScene(string name) 
+    {
+        SceneManager.LoadScene(name);
+        
     }
 }

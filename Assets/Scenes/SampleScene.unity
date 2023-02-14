@@ -578,6 +578,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpspeed: 8
   speed: 5
+  Groundcheck: {fileID: 0}
+  GroundcheckRadius: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  FallDetector: {fileID: 0}
 --- !u!95 &1240982544
 Animator:
   serializedVersion: 4
@@ -734,3 +740,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c85cdc715799b7946b4e97292043771c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Speed: 0
+  Movex: 0
