@@ -41,7 +41,6 @@ public class Enemigo : MonoBehaviour
 
         if(hit.collider != null)
         {
-            print("AAaaaaa...");
             Movex *= -1;
         }
     }

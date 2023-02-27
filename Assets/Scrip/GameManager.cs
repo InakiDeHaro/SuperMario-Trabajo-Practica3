@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
-
+    private void Start()
+    {
+        Audiomanager.instance.PlayMusic("Menu");
+    }
 
     public static GameManager instance;
 
@@ -41,5 +44,22 @@ public class GameManager : MonoBehaviour
     public float GetTime()
     {
         return time;
+    }
+<<<<<<< HEAD
+    public void ChangeScene(string name)
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(name);
+        puntuacion = 0; 
+        time = 0;
+        Audiomanager.instance.PlayMusic(name);
+        Personaje.cointake = 0;
+=======
+
+
+    public void changeScene(string name) 
+    {
+        SceneManager.LoadScene(name);
+        
+>>>>>>> ec7a36166cf134090f6d11242cff8b7e2cc07210
     }
 }

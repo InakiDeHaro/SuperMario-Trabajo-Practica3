@@ -24,12 +24,18 @@ public class Personaje : MonoBehaviour
     //respawn
     private Vector3 respawnPoint;
     public GameObject FallDetector;
+
+    // coins
+    int coincounter;
+    public static int cointake = 0;
+
     // Start is called before the first frame update
     void Start()
     {
         rg = GetComponent<Rigidbody2D>();
         anima = GetComponent<Animator>();
         spriter = GetComponent<SpriteRenderer>();
+        coins();
 
     }
 
@@ -82,7 +88,7 @@ public class Personaje : MonoBehaviour
         }
         if (transform.position.y < -6.54)
         {
-            SceneManager.LoadScene("Menu");
+            GameManager.instance.ChangeScene("Menu");
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -90,13 +96,46 @@ public class Personaje : MonoBehaviour
       if (collision.CompareTag("enemy kill"))
         {
             Destroy(collision.transform.parent.gameObject);
+            Audiomanager.instance.PlaySFX("pisoton");
+            GameManager.instance.AddPunt(5);
+        }
+        if (collision.CompareTag("Coin"))
+        {
+            Destroy(collision.gameObject);
+            cointake++;
+
+            if (cointake == coincounter)
+            {
+                Audiomanager.instance.PlaySFX("monedas all");
+            }
+            else
+            {
+                Audiomanager.instance.PlaySFX("Monedas");
+            }
+            GameManager.instance.AddPunt(10);
+
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene("Menu");
+            GameManager.instance.ChangeScene("Menu");
         }
     }
+<<<<<<< HEAD
+    public void coins()
+    {
+        GameObject[] coins = GameObject.FindGameObjectsWithTag("Coin");
+        coincounter = coins.Length;
+=======
+
+
+    void ChangeScene(string name)
+    {
+        SceneManager.LoadScene
+>>>>>>> ec7a36166cf134090f6d11242cff8b7e2cc07210
+    }
 }
+
+
