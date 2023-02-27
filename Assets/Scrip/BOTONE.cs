@@ -12,4 +12,8 @@ public class BOTONE : MonoBehaviour
     {
         Application.Quit();
     }
+    public void PlaySFX(string name)
+    {
+        Audiomanager.instance.PlaySFX(name);
+    }
 }

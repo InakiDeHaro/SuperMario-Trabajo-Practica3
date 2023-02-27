@@ -12,7 +12,6 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     private int puntuacion = 0;
-
     private float time = 0;
     // Start is called before the first frame update
     void Awake()
@@ -51,9 +50,9 @@ public class GameManager : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene(name);
         puntuacion = 0; 
         time = 0;
+        
         Audiomanager.instance.PlayMusic(name);
-
-
+        Personaje.cointake = 0;
     }
 }
 

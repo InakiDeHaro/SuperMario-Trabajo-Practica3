@@ -123,18 +123,13 @@ public class Personaje : MonoBehaviour
             GameManager.instance.ChangeScene("Menu");
         }
     }
-<<<<<<< HEAD
+
     public void coins()
     {
         GameObject[] coins = GameObject.FindGameObjectsWithTag("Coin");
         coincounter = coins.Length;
-=======
 
 
-    void ChangeScene(string name)
-    {
-        SceneManager.LoadScene
->>>>>>> ec7a36166cf134090f6d11242cff8b7e2cc07210
     }
 }
 
